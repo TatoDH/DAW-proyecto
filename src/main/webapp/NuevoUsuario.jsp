@@ -25,12 +25,16 @@
     <%@include file="templates/header.jspf" %>
     <%@include file="templates/navbar.jspf" %>
     <body>
-        <div class="row justify-content-center">
-            <div class="col-lg-8 ">
-                
-                
-                <%@include file="modulos/datos-usuario.jspf" %>
+        <div class="row justify-content-center ">
+            <div class="col-lg-8 row centrar-contenido box">
+                <div class="col-md-4">
+                    <%@include file="modulos/datos-usuario.jspf" %>
+                </div>
+                <div class="col-md-4">
+                <a class="btn btn-primary" href="/prueba">Terminar</a>
             </div>
+            </div>
+            
         </div>
 
     </body>
