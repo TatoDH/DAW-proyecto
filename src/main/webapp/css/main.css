@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    max-width: 100vw;
+}
+#netbeans_glasspane{
+    max-width: 100vw;
+}
+body{
+    background: lightgoldenrodyellow;
+    color:#313131;
+    font-family: serif;
+}
+div.box{
+    border-radius: 49px 49px 49px 49px;
+    margin: 15px;
+    padding: 30px;
+    border: 0px black ridge;
+    background-color: white;
+}
+
+ a{
+    font-family: lobster;
+       color:lightgray;
+}
+ a:hover{
+    color:goldenrod;
+}
+
+.redes-sociales{
+    line-height: 2em;
+    
+}
+.redes-sociales a i{
+    font-size: 1.5em;
+    
+     margin: 20px 10px 0px 10px;
+}
+.redes-sociales a i:hover{
+    transform: scale(1.6);
+}
+
+
+.contenido-header{
+    background-image: url(../imagenes/encabezado.jpg);
+    height: 100vh;
+    background-position: top center;
+    background-size: cover;
+}
+
+div.nombre-sitio h1{
+    font-size:6em;
+    color:lightgray;
+    font-family: lobster;
+}
+div.nombre-sitio p{
+    font-size:2em;
+    color:lightgray;
+    font-family: lobster;
+    margin:-20px;
+    margin-left: 275px;
+}
+div.nombre-sitio{
+    margin-top: 35vh;
+}
+
+
+
+/*NavBar*/
+.navbar{
+    background-color: #333333;
+    max-width: 100vw;
+}
+
+.navbar-light, .navbar-brand, .nav-link{
+    color: lightgray !important;
+    font-family: lobster;
+    font-size: 2em;
+     padding: 0;
+    padding-left: 35px;
+   
+}
+.navbar-brand:hover{
+    color: goldenrod !important;
+}
+.nav-link:hover{
+    color: goldenrod !important;
+    border: 2px goldenrod ridge;
+  
+}
+.navbar-brand span{
+    font-size: 0.5em;
+}
+.nav-link{
+    font-size:1em;
+    border: 5px;
+    text-align: right;
+    border: 2px lightgray ridge;
+}
+
+
+
+/*Footer*/
+.footer{
+    background-color: #313131;
+    color:lightgrey;
+    padding: 20px 10px;
+    text-align: center;
+}
+.info-col{
+    font-family: lobster;
+    color: goldenrod
+}
+h3.info-col span{
+    color:lightgray;
+}
+.mas-info{
+    line-height: 2em;
+}
+
+
+
+
+
+
+.fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99999;
+    opacity: 0.95;
+}
