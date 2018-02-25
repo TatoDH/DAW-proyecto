@@ -10,10 +10,12 @@
 
                 <p>La banda del Recreo</p>
                 <br>
+                Precio: 10.00€
+                <br>
                 Día: 22/03/2018  <br>  Hora:21:00
                 <br>
-                <form>
-                    <input type="text" hidden value="concierto1">
+                <form action="comprar-entrada.jsp" method="post">
+                    <input type="text" name="concierto" hidden value="concierto1">
                     <input class="btn btn-primary" type="submit" name="compra" value="Comprar Entrada">
                 </form>
 
@@ -28,11 +30,12 @@
             <div class="justify-content-center">
 
                 <p>Cantando hasta la muerte</p>
+                <br>Precio: 12.00€
                 <br>
                 Día: 01/07/2018 <br>   Hora:12:00
                 <br>
-                <form>
-                    <input type="text" hidden value="concierto2">
+                <form method="post">
+                    <input type="text" name="concierto" hidden value="concierto2">
                     <input class="btn btn-primary" type="submit" name="compra" value="Comprar Entrada">
                 </form>
 
@@ -47,11 +50,12 @@
             <div>
 
                 <p>Ecos de un sonido</p>
+                <br>Precio: 8.00€
                 <br>
                 Día: 20/04/2018  <br>  Hora:21:00
                 <br>
-                <form>
-                    <input type="text" hidden value="concierto1">
+                <form method="post">
+                    <input type="text" name="concierto" hidden value="concierto3">
                     <input class="btn btn-primary" type="submit" name="compra" value="Comprar Entrada">
                 </form>
 
