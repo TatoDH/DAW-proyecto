@@ -1,23 +1,11 @@
 
 
-<nav class="navbar navbar-expand-lg navbar-light row">
-    <a class="navbar-brand col-md-2" href="/prueba">BUTAN <span>Club</span></a>
-  
-
-  <div class="collapse navbar-collapse col-md-5 offset-4" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item col-md-auto">
-        <a class="nav-link button" href="/prueba">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item col-md-auto">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item col-md-auto">
-        <a class="nav-link" href="/prueba/conciertos.jsp">Conciertos</a>
-      </li>
-      <li class="nav-item col-md-auto">
-        <a class="nav-link" href="/prueba/Acceso.jsp">Acceso</a>
-      </li>
-    </ul>
+<nav class="navbar navbar-dark sticky-top ">
+  <a class="navbar-brand" href="/prueba">BUTAN <span>Club</span></a>
+  <div class="nav-content row">
+      <a class="nav-link" href="/prueba">Home <span class="sr-only">(current)</span></a>
+      <a class="nav-link" href="#">Link</a>
+      <a class="nav-link" href="/prueba/conciertos.jsp">Conciertos</a>
+      <a class="nav-link" href="/prueba/Acceso.jsp">Acceso</a>
   </div>
 </nav>

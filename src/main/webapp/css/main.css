@@ -9,7 +9,10 @@
 body{
     background: lightgoldenrodyellow;
     color:#313131;
-    font-family: serif;
+    font-family: lobster,serif;
+}
+.btn{
+    font-family: lobster;
 }
 
 .btn-primary {
@@ -91,10 +94,10 @@ div.nombre-sitio{
     max-width: 100vw;
 }
 
-.navbar-light, .navbar-brand, .nav-link{
+.navbar-brand{
     color: lightgray !important;
     font-family: lobster;
-    font-size: 2em;
+    font-size: 3em;
     padding: 0;
     padding-left: 35px;
 
@@ -111,12 +114,12 @@ div.nombre-sitio{
     font-size: 0.5em;
 }
 .nav-link{
-    font-size:1em;
-    border: 5px;
-    text-align: right;
+    border-radius: 5px 5px 5px 5px;
+    font-size:1.2em;
+    margin: 10px;
     border: 2px lightgray ridge;
+    
 }
-
 
 
 /*Footer*/
@@ -149,4 +152,25 @@ h3.info-col span{
     width: 100%;
     z-index: 99999;
     opacity: 0.95;
+}
+
+
+
+
+/************
+*************
+*************
+    MODULOS
+        ***************
+        ***************
+        **************/
+
+.concierto{
+    font-family: lobster;
+    font-size: 1em;
+    justify-content: center;
+    padding: 10px
+}
+.concierto p{
+    font-size: 1.5em;
 }

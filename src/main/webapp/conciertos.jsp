@@ -4,12 +4,13 @@
     Author     :plal
 --%>
 
+
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">         
-        <title></title>
+        <title>Butan-Conciertos</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1"> 
         <!--<link rel="stylesheet" href="css/normalize.css">
@@ -23,9 +24,9 @@
 
 
         <div class="row justify-content-center">
-            <div class="col-lg-8 ">
-                <h1> Conciertos Disponibles</h1>
-                <%@include file="/templates/muestra-conciertos.jspf" %>
+            <div class="col-lg-8 row centrar-contenido box">
+                <h2> Conciertos Disponibles</h2>
+                <%@include file="/templates/modulos/muestra-conciertos.jspf" %>
             </div>
         </div>
 
