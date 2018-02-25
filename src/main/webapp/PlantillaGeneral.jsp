@@ -32,3 +32,4 @@
     <%@include file="templates/footer.jspf" %>
 </html>
 
+</html>

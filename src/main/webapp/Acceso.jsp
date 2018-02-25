@@ -24,14 +24,14 @@
         <div class="row justify-content-center">
             <div class="col-md-4 box">
                 <center>
-                <form name="registro_usuarios" method="POST" action="respuesta.jsp">
+                <form name="registro_usuarios" method="POST" action="NuevoUsuario.jsp">
                     <fieldset>
                         <legend>
                             <h2>Nuevo Usuario</h2>
                          
                         </legend>
                         
-                        <label>Nombre de Usuario:<input type="text" name="usuario" class="form-control"></label>
+                        <label>Nombre de Usuario:<input type="text" name="usuario"  class="form-control" ></label>
                         <label>Contraseña: <input type="password" name="pass" class="form-control"></label>
                         <label>Confirme Contraseña: <input type="password" name="confirmacion-pass" class="form-control"></label>
                         
@@ -39,7 +39,7 @@
                                             
                                 <label>Apellidos: <input type="text" name="apellidos" class="form-control"></label>
                                                   
-                                <label>E-mail: <input type="email" name="mail" class="form-control"></label>
+                                <label>E-mail: <input type="email" name="email" class="form-control"></label>
                                                   
                                 <label>Fecha Nacimiento: <input type="date" name="fecha" class="form-control"></label>
                                                   
