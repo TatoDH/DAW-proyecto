@@ -18,8 +18,8 @@
     </head> 
 
 
-<%@include file="templates/header.jspf" %>
-<%@include file="templates/navbar.jspf" %>
+    <%@include file="templates/header.jspf" %>
+    <%@include file="templates/navbar.jspf" %>
     <body>
         <div class="row justify-content-center">
             <div class="col-lg-8 ">
@@ -31,8 +31,15 @@
                 <br>
             </div>
         </div>
-
+        <div class="box">
+            <div class="row centrar-contenido">
+                <h2>Tus conciertos</h2>
+                <br>
+            </div>
+                <%@include file="templates/modulos/conciertos-usuario.jspf" %>
+            
+        </div>
     </body>
-<%@include file="templates/footer.jspf" %>
+    <%@include file="templates/footer.jspf" %>
 </html>
 
