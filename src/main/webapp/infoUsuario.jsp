@@ -46,6 +46,7 @@
         </div>
         <%if (request.getParameter("tipoUsuario") != null) {%>
         <%String posibleUsuario = request.getParameter("posible-usuario");%>
+        <%= posibleUsuario %>
             <%if (posibleUsuario == "Artista") {%>
                 <div class="box">
                     <%-- informacion de artistas --%>
