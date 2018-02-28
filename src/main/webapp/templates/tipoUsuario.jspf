@@ -11,6 +11,6 @@
         <input type="radio" id="administrador" name="posible-usuario" value="Administrador">  
         <label for="administrador">administrador</label>
    
-        <input type="submit" name="Enviar" value="Enviar">
+        <input type="submit" name="tipoUsuario" value="Enviar">
     </div>
 </form>
