@@ -51,6 +51,11 @@
                         <input type="reset" name="reset" value="Reestablecer" class="btn">
                     </center>
                 </form>
+                <!-- Hey Webmaster! Place this html code where you'd like the game to appear. -->
+<iframe src="https://www.silvergames.com/es/pacman/iframe" width="450" height="500" style="margin:0;padding:0;border:0"></iframe>
+<p style="text-align:center">¡Un <a href="https://www.silvergames.com/es/t/retro">Juegos Retro</a> en Silvergames.com!</p>
+<!-- End of game embed code -->
+    
             </div>
         </div>
 
