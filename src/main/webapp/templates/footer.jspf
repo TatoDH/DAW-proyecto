@@ -26,7 +26,7 @@
         <h3 class="info-col"> Más <span>info</span></h3>
         <a href="#">Quiénes somos</a><br>
         <a href="#">Condiciones de venta</a><br>
-        <a href="#">Política de Cookies</a><br>
+        <a href="/prueba/templates/footer/Cookies.jsp">Política de Cookies</a><br>
         <a href="#">Contacto</a><br>
     </div>
 </footer>

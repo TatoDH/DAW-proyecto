@@ -47,13 +47,13 @@
         <%if (request.getParameter("tipoUsuario") != null) {%>
         <%String posibleUsuario = request.getParameter("posible-usuario");%>
         <%= posibleUsuario %>
-            <%if (posibleUsuario == "Artista") {%>
+            <%if (posibleUsuario.equals("Artista")) {%>
                 <div class="box">
                     <%-- informacion de artistas --%>
                     solicitar sala
                 </div>
             <%}%>
-            <%if (posibleUsuario == "Administrador") {%>
+            <%if (posibleUsuario.equals("Administrador")) {%>
                 <div class="box">
                     <%-- informacion de administradoes gestionar conciertos --%>
                     gestion concierto
